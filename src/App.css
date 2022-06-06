@@ -5,6 +5,7 @@
     border-radius: 2%;
     margin-top: 10%;
     justify-content: center;
+    z-index: -1;
 }
 
 
@@ -16,8 +17,6 @@
 .App .OutputArea{
     display: flex;
     justify-content: center;
+    z-index: -1;
 }
-
-
-
 

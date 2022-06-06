@@ -1,3 +1,6 @@
+.results{
+  position: relative;
+}
 input{
     width : 91px;
     height: 30px;
@@ -11,6 +14,7 @@ input{
     font-weight: 100;
     justify-content: center;
     margin-left: 152px;
+    z-index:-1;
 }
 
 /* input[type="number"]{  
@@ -25,4 +29,37 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 } */
+.red {
+  border-radius: 50%;
+  background-color: #fe5a51;
+  height: 4px;
+  width: 4px;
+  margin-left: 160px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 11%;
+}
 
+.yellow {
+  border-radius: 50%;
+  background-color: #e5c028;
+  height: 4px;
+  width: 4px;
+  margin-left: 166px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 11%;
+
+}
+
+.green {
+  border-radius: 50%;
+  background-color: #53c22b;
+  height: 4px;
+  width: 4px;
+  margin-left: 172px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 11%;
+
+}

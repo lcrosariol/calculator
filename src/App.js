@@ -15,9 +15,8 @@ function App() {
   return (
 <>    
     <div className="App">
-      <div className="red"></div>
-      <div className="yellow"></div>
-      <div className="green"></div>
+      
+
       <Result
         value={val}
         ph={ph}

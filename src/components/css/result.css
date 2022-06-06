@@ -1,0 +1,28 @@
+input{
+    width : 91px;
+    height: 30px;
+    color: white;
+    margin-top: 10%;
+    background-color: #313131;
+    text-align: right;
+    border: 0.5px solid #313131 ;
+    border-radius: 5px 5px 0 0;
+    font-size: 20pt;
+    font-weight: 100;
+    justify-content: center;
+    margin-left: 152px;
+}
+
+/* input[type="number"]{  
+    text-align: right; 
+    color: black;
+    width: 24px;
+    height: 24px;
+}  */
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
